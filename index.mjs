@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import{assign as s}from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.3.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@v0.2.3-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@v0.2.4-esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/fft-base-fftpack-generic-decompose@esm/index.mjs";var r=[4,2,3,5];function o(o,n,m,d){var f;return 1===o||function(o,n,m,d,f,a,p){var c,l,j,h,v,b,g,x,u,k,w,q,y,z,A,B;if((v=i(o,4,r,1,0,f,a,p))-1!=0)for(j=t/o,q=1,x=1,h=p+2*a,k=2*m,A=0;A<v-1;A++){for(c=f[h],y=e(o/(g=c*x)),u=0,B=1;B<c;B++){for(l=(u+=x)*j,b=1,w=d+q*m,z=2;z<y;z+=2)s(b*l,n,-m,w),b+=1,w+=k;q+=y}x=g,h+=a}}(o,n,m,f=d+o*m,n,m,f+o*m),n}export{o as default};
-//# sourceMappingURL=index.mjs.map
